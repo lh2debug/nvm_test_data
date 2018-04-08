@@ -1,0 +1,5 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.MapKeeperClient -P workloads/workload_read -load
+[OVERALL], RunTime(ms), 909.0
+[OVERALL], Throughput(ops/sec), 0.0
+java -cp /mnt/sdb/app_source/ycsb-0.1.4/infinispan-binding/conf:/mnt/sdb/app_source/ycsb-0.1.4/mapkeeper-binding/lib/mapkeeper-binding-0.1.4.jar:/mnt/sdb/app_source/ycsb-0.1.4/core/lib/core-0.1.4.jar:/mnt/sdb/app_source/ycsb-0.1.4/jdbc-binding/conf:/mnt/sdb/app_source/ycsb-0.1.4/gemfire-binding/conf:/mnt/sdb/app_source/ycsb-0.1.4/hbase-binding/conf:/mnt/sdb/app_source/ycsb-0.1.4/nosqldb-binding/conf:/mnt/sdb/app_source/ycsb-0.1.4/voldemort-binding/conf com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.MapKeeperClient -P workloads/workload_read -load

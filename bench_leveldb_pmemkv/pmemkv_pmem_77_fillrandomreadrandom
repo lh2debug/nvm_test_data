@@ -1,0 +1,36 @@
+root@ubuntu77lab505:~/lab505/app_source/pmemkv# ./pmemkv_bench --num=100000 --db=/mnt/pmem/pmem_data --benchmarks=fillrandom,readrandom
+Date:       Mon Apr  9 10:51:06 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Path:       /mnt/pmem/pmem_data
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    100000
+RawSize:    11.1 MB (estimated)
+WARNING: Optimization is disabled: benchmarks unnecessarily slow
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+------------------------------------------------
+removed      :       0.013 millis/op;
+open         :     438.164 millis/op;
+... finished 100000 ops                             fillrandom   :      98.968 micros/op;    1.1 MB/s
+... finished 100000 ops                             readrandom   :       2.592 micros/op;   42.7 MB/s (100000 of 100000 found)
+
+root@ubuntu77lab505:~/lab505/app_source/pmemkv# ./pmemkv_bench --num=100000 --db=/mnt/pmem/pmem_data --benchmarks=fillseq,readseq
+Date:       Mon Apr  9 10:52:16 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Path:       /mnt/pmem/pmem_data
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    100000
+RawSize:    11.1 MB (estimated)
+WARNING: Optimization is disabled: benchmarks unnecessarily slow
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+------------------------------------------------
+removed      :       0.044 millis/op;
+open         :     389.877 millis/op;
+... finished 100000 ops                             fillseq      :      89.824 micros/op;    1.2 MB/s
+... finished 100000 ops                             readseq      :       5.157 micros/op;   21.5 MB/s (100000 of 100000 found)
+

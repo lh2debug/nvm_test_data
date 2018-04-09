@@ -76,3 +76,26 @@ Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
 sda               0.00         0.00         0.00          0          0
 sdb               0.27         0.00         1.33          0         20
 
+10247MB
+
+10倍
+
+奇怪，没有测到读IO
+
+LevelDB:    version 1.20
+Date:       Sun Apr  8 21:26:30 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Keys:       16 bytes each
+Values:     100 bytes each (50 bytes after compression)
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+FileSize:   629.4 MB (estimated)
+WARNING: Optimization is disabled: benchmarks unnecessarily slow
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+WARNING: Snappy compression is not enabled
+------------------------------------------------
+fillrandom   :      15.429 micros/op;    7.2 MB/s
+readrandom   :      11.504 micros/op; (10000000 of 10000000 found)
+
+

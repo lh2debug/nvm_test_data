@@ -1,0 +1,16 @@
+root@ubuntu77lab505:~/lab505/app_source/leveldb# ./db_bench --num=100000 --db=/home/leveldb_data/ --benchmarks=fillrandom,readrandom --value_size=1000
+LevelDB:    version 1.20
+Date:       Mon Apr  9 09:31:34 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    100000
+RawSize:    96.9 MB (estimated)
+FileSize:   49.2 MB (estimated)
+WARNING: Optimization is disabled: benchmarks unnecessarily slow
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+WARNING: Snappy compression is not enabled
+------------------------------------------------
+fillrandom   :      28.016 micros/op;   34.6 MB/s
+readrandom   :      12.281 micros/op; (100000 of 100000 found)

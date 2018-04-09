@@ -1,0 +1,37 @@
+[root@localhost quartzmemkv]# ./pmemkv_bench --num=1000000 --benchmarks=fillrandom,readrandom
+ERROR: nvmemul: Configuration file nvmemul.ini not found.
+ERROR: nvmemul: Initialization failed. Running without non-volatile memory emulation.
+Date:       Mon Apr  9 10:44:31 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+removed      :       0.017 millis/op;
+open         :       0.012 millis/op;
+fillrandom   :       2.188 micros/op;   50.6 MB/s
+readrandom   :       1.428 micros/op;   77.5 MB/s (1000000 of 1000000 found)
+
+
+[root@localhost quartzmemkv]# ./pmemkv_bench
+ERROR: nvmemul: Configuration file nvmemul.ini not found.
+ERROR: nvmemul: Initialization failed. Running without non-volatile memory emulation.
+Date:       Mon Apr  9 10:41:57 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+removed      :       0.356 millis/op;
+open         :       0.014 millis/op;
+fillseq      :       1.730 micros/op;   63.9 MB/s
+readseq      :       1.183 micros/op;   93.5 MB/s (1000000 of 1000000 found)
+

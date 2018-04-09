@@ -1,0 +1,20 @@
+root@ubuntu77lab505:~/lab505/app_source/pmemkv# ./pmemkv_bench --num=1000000 --db=/home/pmemkv_data_test --benchmarks=fillrandom,readrandom
+Date:       Mon Apr  9 08:13:37 2018
+CPU:        24 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+CPUCache:   15360 KB
+Path:       /home/pmemkv_data_test
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+WARNING: Optimization is disabled: benchmarks unnecessarily slow
+WARNING: Assertions are enabled; benchmarks unnecessarily slow
+------------------------------------------------
+removed      :       6.930 millis/op;
+open         :      18.234 millis/op;
+... finished 350000 ops
+... finished 500000 ops
+... finished 800000 ops
+fillrandom   :    1082.592 micros/op;    0.1 MB/s
+readrandom   :       4.001 micros/op;   27.6 MB/s (1000000 of 1000000 found)

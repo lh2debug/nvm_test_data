@@ -1,0 +1,26 @@
+Linux 4.15.15-041515-generic (ubuntu77lab505) 	04/09/2018 	_x86_64_	(24 CPU)
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda             239.58         2.38       868.15     709441  258290509
+sdb               3.84         0.04       960.33      10903  285717960
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda             215.40         0.00     36916.53          0     553748
+sdb               0.13         0.00         2.13          0         32
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               0.27         0.00         4.00          0         60
+sdb               0.33         0.00         2.40          0         36
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               1.47         0.00       121.87          0       1828
+sdb               0.67         0.00         3.73          0         56
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               0.27         0.00         1.07          0         16
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               0.27         0.00         3.20          0         48
+sdb               0.13         0.00         0.80          0         12
+

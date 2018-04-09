@@ -1,0 +1,46 @@
+Linux 4.15.15-041515-generic (ubuntu77lab505) 	04/09/2018 	_x86_64_	(24 CPU)
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda             137.44         2.40       671.76     709441  198751945
+sdb               3.86         0.04       965.69      10903  285716296
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           23526.60         0.00     45657.07          0     684856
+sdb               0.13         0.00         1.87          0         28
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           28360.87         0.00     54784.80          0     821772
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           26249.67         0.00     50804.27          0     762064
+sdb               0.60         0.00         3.47          0         52
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           24200.67         0.00     46785.60          0     701784
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           22692.73         0.00     43860.80          0     657912
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           23512.40         0.00     45544.27          0     683164
+sdb               0.27         0.00         1.33          0         20
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           23084.87         0.00     44703.73          0     670556
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda           14022.73         0.00     27201.33          0     408020
+sdb               0.13         0.00         0.80          0         12
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               1.40         0.00        16.00          0        240
+sdb               0.27         0.00         1.33          0         20
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               0.27         0.00         1.33          0         20
+sdb               0.13         0.00         0.80          0         12
+
